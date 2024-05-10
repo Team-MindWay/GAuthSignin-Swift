@@ -6,7 +6,7 @@ enum UserAPIEnum {
 }
 
 class UserAPI {
-    let baseURL: String = "https://open.gauth.co.kr/"
+    let baseURL: String = "https://port-0-gauth-resource-server-71t02clq411q18.sel4.cloudtype.app/"
     let user: UserAPIEnum
 
     init(user: UserAPIEnum) {
