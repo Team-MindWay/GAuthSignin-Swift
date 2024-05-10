@@ -8,7 +8,7 @@ enum OAuthEnum {
 }
 
 struct OAuthAPI {
-    let baseURL: String = "https://server.gauth.co.kr/oauth/"
+    let baseURL: String = "https://port-0-gauth-backend-85phb42bluutn9a7.sel5.cloudtype.app/oauth"
     let user: OAuthEnum
 
     init(user: OAuthEnum) {
